@@ -15,10 +15,13 @@ const Dashboard = () => {
       </div>
 
       <ul className="list-group w-50">
-        <li className="list-group-item">
+        <li className="list-group-item">  
+  
+
+
           <button
             className="btn btn-outline-primary w-100 py-2"
-            onClick={() => window.location.href = 'https://principal-portal.example.com'}
+            onClick={() => window.location.href = 'https://masteradmin.vercel.app'}
           >
             Principal Login
           </button>
@@ -26,7 +29,7 @@ const Dashboard = () => {
         <li className="list-group-item">
           <button
             className="btn btn-outline-secondary w-100 py-2"
-            onClick={() => window.location.href = 'https://hod-portal.example.com'}
+            onClick={() => window.location.href = 'https://hodadmin.vercel.app'}
           >
             HOD Login
           </button>
@@ -34,7 +37,7 @@ const Dashboard = () => {
         <li className="list-group-item">
           <button
             className="btn btn-outline-success w-100 py-2"
-            onClick={() => window.location.href = 'https://faculty-portal.example.com'}
+            onClick={() => window.location.href =   'https://facultyadmin.vercel.app'}
           >
             Faculty Login
           </button>
@@ -42,7 +45,7 @@ const Dashboard = () => {
         <li className="list-group-item">
           <button
             className="btn btn-outline-danger w-100 py-2"
-            onClick={() => window.location.href = 'https://student-portal.example.com'}
+            onClick={() => window.location.href =   'https://studentdashboard-nine.vercel.app'}
           >
             Student Login
           </button>
